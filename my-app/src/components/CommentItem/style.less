@@ -1,0 +1,34 @@
+.comment-item{
+    width: 100%;height: 20vw;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-bottom:1px solid #ddd;
+    .comment-left{
+        width: 10vw;height: 10vw;
+        border: 1px solid #ddd;
+        background-color: #eee;
+        margin: 3vw;
+    }
+    .comment-right{
+        width: 84vw;
+        div{
+            display: flex;
+        }
+        .right-user{
+            width: 100%;
+            justify-content: space-between;
+            p:nth-child(2){font-size: 3vw;color:#999;}
+        }
+        .right-star{
+            width: 100%;
+            p{
+                font-size: 4vw;
+                padding: 0.5vw;
+            }
+        }
+        .right-comment{
+            font-size: 3.5vw;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.goods{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .goods-sort{
+        // border: 1px solid black;
+        width: 30vw;
+        .isfixed{
+            position: fixed;
+            top:10vw; left: 0;
+            z-index: 0;
+        }
+        ul{
+            width: 100%;
+            li{
+                // border: 1px solid blue;
+                width: 100%;height: 15vw;
+                line-height: 15vw;
+                padding-left: 4vw;
+                font-size: 4vw;
+                color: #666;
+                border-bottom: 1px solid #ededed;
+            }
+            .selected{
+                border-left: 1.5vw solid #0094ff;
+                background-color: #fff;
+            }
+        }
+    }
+    .goods-look{
+        // border: 1px solid red;
+        width: 100%;
+    }
+}
